@@ -33,9 +33,9 @@ Tutor with a master's degree in computer engineering (mag. ing. comp., FERIT Osi
 ## Capabilities and Constraints
 
 - Price list (proposed, accepted by user; same for all subjects, in person or online):
-  - Osnovna škola: 15 € / sat, paket 10 sati 135 €
-  - Srednja škola: 20 € / sat, paket 10 sati 180 €
-  - Priprema za maturu: 25 € / sat, paket 10 sati 225 €
+  - Osnovna škola: 12 € / sat, paket 10 sati 108 €
+  - Srednja škola: 16 € / sat, paket 10 sati 144 €
+  - Priprema za maturu: 20 € / sat, paket 10 sati 180 €
 - Contact form fields: ime i prezime, e-mail, telefon (optional), roditelj/učenik, predmet (multi), razina i razred, uživo/online, poruka.
 - Contact: patricia.adzic@gmail.com, +385 95 856 6268, Instagram @patriciaadzic.
 - Business name: "Bistra glavica", obrt za instrukcije i poduku (chosen 2026-11-22; earlier working names "Patricia Edukacije", "Pametna mozgalica", "Pametna glavica" and "Iskrica znanja" are dropped).
