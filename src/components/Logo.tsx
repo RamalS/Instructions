@@ -1,7 +1,7 @@
 /** Znak Bistre glavice: olovka iz čijeg vrha izbija rasprsak. */
 export function Logo({ size = 44 }: { size?: number }) {
   return (
-    <svg width={size} height={size} viewBox="6 2 92 92" aria-hidden="true" focusable="false">
+    <svg width={size} height={size} viewBox="2 2 96 96" aria-hidden="true" focusable="false">
       <g
         transform="translate(-8 8) rotate(-45 50 50)"
         stroke="var(--ink)"
