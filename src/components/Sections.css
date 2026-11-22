@@ -1,0 +1,281 @@
+/* Predmeti */
+.subjects {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.subjects ::selection {
+  background: var(--sun);
+  color: var(--ink);
+}
+
+.subjects__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.5rem 4rem;
+  margin-bottom: 3.5rem;
+}
+
+.subjects__title {
+  max-width: 14ch;
+}
+
+.subjects__intro {
+  max-width: 42ch;
+  color: #d9d2c3;
+}
+
+.subjects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 8px;
+}
+
+/* O meni */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 4rem;
+}
+
+.about__visual {
+  flex: 1 1 20rem;
+  min-width: 0;
+  position: relative;
+  aspect-ratio: 1;
+  max-width: 30rem;
+}
+
+.about__disc,
+.about__photo {
+  position: absolute;
+  width: 88%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.about__disc--in {
+  left: 0;
+  top: 0;
+  background: var(--in);
+}
+
+.about__disc--bi {
+  left: 6%;
+  top: 6%;
+  background: var(--bi);
+}
+
+.about__photo {
+  left: 12%;
+  top: 12%;
+  height: auto;
+  object-fit: cover;
+}
+
+.about__body {
+  flex: 1.4 1 32rem;
+  min-width: 0;
+}
+
+.about__title {
+  margin-bottom: 2rem;
+}
+
+.about__text {
+  max-width: 62ch;
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+  color: #2e2a23;
+}
+
+.about__quote {
+  margin: 2.5rem 0 0;
+  padding: 1.75rem 2rem;
+  max-width: 56ch;
+  background: var(--sun);
+  border-radius: 24px;
+}
+
+.about__quote blockquote {
+  margin: 0;
+}
+
+.about__quote blockquote p {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.625rem;
+  line-height: 1.25;
+}
+
+.about__quote figcaption {
+  margin-top: 0.75rem;
+  font-size: var(--text-sm);
+}
+
+.about__quote a {
+  color: var(--ink);
+}
+
+.about__facts {
+  margin: 2.5rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+  gap: 1.5rem;
+  font-size: 1rem;
+}
+
+.about__facts dt {
+  font-weight: 600;
+}
+
+.about__facts dd {
+  margin: 0.25rem 0 0;
+  color: var(--ink-soft);
+}
+
+/* Cijenik */
+.pricing {
+  background: var(--paper-deep);
+}
+
+.pricing__intro {
+  margin: 1rem 0 3rem;
+  max-width: 56ch;
+  color: var(--ink-soft);
+}
+
+.pricing__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17.5rem), 1fr));
+  gap: 1rem;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem;
+  background: var(--paper);
+  border-radius: var(--radius-card);
+}
+
+.price__title {
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.price__note {
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+
+.price__amount {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 4.5rem;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+.price__amount span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.price__package {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid currentColor;
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.price--featured {
+  background: var(--ma);
+  color: var(--white);
+}
+
+.price--featured .price__note {
+  color: var(--ma-tint);
+}
+
+.pricing__notes {
+  margin: 2.5rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 1rem 2rem;
+  font-size: 1rem;
+  color: #2e2a23;
+}
+
+/* Kako počinjemo */
+.steps__title {
+  font-weight: 800;
+  font-size: clamp(2.25rem, 1.6rem + 2vw, 3.25rem);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin-bottom: 3rem;
+}
+
+.steps__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 2.5rem;
+}
+
+.step {
+  display: flex;
+  align-items: start;
+  gap: 1.25rem;
+}
+
+.step__num {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.step__num--fi {
+  background: var(--fi);
+}
+
+.step__num--sun {
+  background: var(--sun);
+}
+
+.step__num--in {
+  background: var(--in);
+  color: var(--white);
+}
+
+.step__title {
+  margin: 0.375rem 0 0.5rem;
+  font-family: var(--font-body);
+  font-size: 1.3125rem;
+  font-weight: 600;
+}
+
+.step__text {
+  color: var(--ink-soft);
+}

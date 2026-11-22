@@ -1,0 +1,150 @@
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3.5rem;
+  padding-top: clamp(1.5rem, 1rem + 3vw, 3.5rem);
+  padding-bottom: clamp(4rem, 3rem + 4vw, 6rem);
+}
+
+.hero__copy {
+  flex: 1 1 30rem;
+  min-width: 0;
+}
+
+.hero__title {
+  font-weight: 800;
+  font-size: var(--text-h1);
+  line-height: 0.95;
+  letter-spacing: -0.035em;
+  font-variation-settings: 'opsz' 96;
+  margin-bottom: 1.75rem;
+}
+
+.hero__lead {
+  font-size: var(--text-lead);
+  max-width: 34ch;
+  color: var(--ink-soft);
+  margin-bottom: 2.25rem;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.hero__cta {
+  font-size: 1.125rem;
+  min-height: 56px;
+}
+
+.hero__secondary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 56px;
+  padding-inline: 0.75rem;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.hero__credentials {
+  margin-top: 2.5rem;
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+
+/* Pozornica: slojevi papira, fotografija, pločice */
+.hero__stage {
+  flex: 1 1 30rem;
+  min-width: 0;
+  position: relative;
+  aspect-ratio: 1 / 0.98;
+  max-width: 40rem;
+}
+
+.hero__layer {
+  position: absolute;
+  width: 62%;
+  aspect-ratio: 4 / 5;
+  border-radius: var(--leaf);
+}
+
+.hero__layer--sun {
+  left: 8%;
+  top: 0;
+  background: var(--sun);
+}
+
+.hero__layer--fi {
+  left: 14%;
+  top: 4.5%;
+  background: var(--fi);
+}
+
+.hero__photo {
+  left: 20%;
+  top: 9%;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 20%;
+  background: var(--paper-deep);
+}
+
+.hero__tile {
+  position: absolute;
+}
+
+.hero__tile--ma {
+  right: 0;
+  top: 4%;
+}
+
+.hero__tile--in {
+  left: 0;
+  bottom: 6%;
+}
+
+/* Jedan trenutak: slojevi se slegnu jedan na drugi */
+@media (prefers-reduced-motion: no-preference) {
+  .hero__layer--sun {
+    animation: settle 0.9s var(--ease-out) both;
+  }
+  .hero__layer--fi {
+    animation: settle 0.9s 0.08s var(--ease-out) both;
+  }
+  .hero__photo {
+    animation: settle 0.9s 0.16s var(--ease-out) both;
+  }
+  .hero__tile {
+    animation: settle-tile 0.8s 0.35s var(--ease-out) both;
+  }
+}
+
+@keyframes settle {
+  from {
+    transform: translate(-14px, -14px) rotate(-1.5deg);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes settle-tile {
+  from {
+    transform: translateY(10px) scale(0.96);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@media (max-width: 47.99rem) {
+  .hero {
+    gap: 2.5rem;
+  }
+  .hero__stage {
+    order: -1;
+  }
+}

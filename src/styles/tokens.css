@@ -1,0 +1,40 @@
+:root {
+  /* Papir i tinta */
+  --paper: #fbf7ef;
+  --paper-deep: #efe7d6;
+  --ink: #17140f;
+  --ink-soft: #3a352d;
+  --ink-muted: #5a5347;
+  --white: #ffffff;
+
+  /* Elementi: svaki predmet ima svoj papir */
+  --ma: #2b44d9;
+  --ma-tint: #dce1ff;
+  --fi: #e8461e;
+  --in: #0f8a4b;
+  --bi: #c2297a;
+  --sun: #f2c230;
+
+  /* Tipografija */
+  --font-display: 'Bricolage Grotesque Variable', 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-body: 'Figtree Variable', 'Figtree', system-ui, sans-serif;
+
+  --text-sm: 0.9375rem;
+  --text-base: 1.125rem;
+  --text-lead: clamp(1.125rem, 0.9rem + 0.6vw, 1.3125rem);
+  --text-h2: clamp(2.5rem, 1.6rem + 3vw, 4rem);
+  --text-h1: clamp(3rem, 1.4rem + 5.6vw, 6rem);
+
+  /* Razmaci */
+  --gutter: clamp(1rem, 0.4rem + 2.4vw, 2rem);
+  --section-y: clamp(4.5rem, 3rem + 5vw, 8rem);
+  --max: 80rem;
+
+  /* Oblici */
+  --radius-card: 28px;
+  --radius-field: 14px;
+  --radius-pill: 999px;
+  --leaf: 32px 32px 200px 32px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
