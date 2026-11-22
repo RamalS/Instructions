@@ -34,7 +34,7 @@ Tutor with a master's degree in computer engineering (mag. ing. comp., FERIT Osi
 
 - Price list (proposed, accepted by user; same for all subjects, in person or online):
   - Osnovna škola: 12 € / sat, paket 10 sati 108 €
-  - Srednja škola: 16 € / sat, paket 10 sati 144 €
+  - Srednja škola: 15 € / sat, paket 10 sati 135 €
   - Priprema za maturu: 20 € / sat, paket 10 sati 180 €
 - Contact form fields: ime i prezime, e-mail, telefon (optional), roditelj/učenik, predmet (multi), razina i razred, uživo/online, poruka.
 - Contact: patricia.adzic@gmail.com, +385 95 856 6268, Instagram @patriciaadzic.

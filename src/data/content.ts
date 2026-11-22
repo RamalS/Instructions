@@ -90,7 +90,7 @@ export interface Price {
 
 export const prices: Price[] = [
   { id: 'os', title: 'Osnovna škola', note: '5. do 8. razred', perHour: 12, package10: 108 },
-  { id: 'ss', title: 'Srednja škola', note: 'gimnazije i strukovne škole', perHour: 16, package10: 144 },
+  { id: 'ss', title: 'Srednja škola', note: 'gimnazije i strukovne škole', perHour: 15, package10: 135 },
   {
     id: 'matura',
     title: 'Priprema za državnu maturu',
