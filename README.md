@@ -1,4 +1,4 @@
-# Patricia Edukacije
+# Bistra glavica
 
 Web stranica za instrukcije iz matematike, fizike, informatike i biologije (Osijek i online).
 

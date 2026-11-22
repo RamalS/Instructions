@@ -23,7 +23,7 @@ export default function App() {
       </main>
       <footer className="wrap site-footer">
         <span>
-          {brand.name} · {brand.city}
+          {brand.name}, {brand.tagline} · {brand.city}
         </span>
         <span>© {YEAR} {brand.person}</span>
       </footer>

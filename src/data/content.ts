@@ -1,5 +1,6 @@
 export const brand = {
-  name: 'Patricia Edukacije',
+  name: 'Bistra glavica',
+  tagline: 'obrt za instrukcije i poduku',
   person: 'Patricia Adžić',
   city: 'Osijek',
 }

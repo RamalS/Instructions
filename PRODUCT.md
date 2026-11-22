@@ -38,7 +38,8 @@ Tutor with a master's degree in computer engineering (mag. ing. comp., FERIT Osi
   - Priprema za maturu: 25 € / sat, paket 10 sati 225 €
 - Contact form fields: ime i prezime, e-mail, telefon (optional), roditelj/učenik, predmet (multi), razina i razred, uživo/online, poruka.
 - Contact: patricia.adzic@gmail.com, +385 95 856 6268, Instagram @patriciaadzic.
-- Business name "Patricia Edukacije" is provisional and will likely change: do not build a permanent logo mark around it.
+- Business name: "Bistra glavica", obrt za instrukcije i poduku (chosen 2026-11-22; earlier working names "Patricia Edukacije", "Pametna mozgalica", "Pametna glavica" and "Iskrica znanja" are dropped).
+- Logo: pencil with a burst at its tip (design "Bistra II · 3, Olovka i rasprsak" on the logo canvas), in `src/components/Logo.tsx` and `public/favicon.svg`. Avoid heads, four colored squares (reads as Windows), drops and a BG monogram.
 
 ## Brand Commitments
 

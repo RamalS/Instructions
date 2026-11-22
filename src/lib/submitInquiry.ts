@@ -32,5 +32,5 @@ export async function submitInquiry(data: Inquiry): Promise<void> {
   if (data.website) return // bot: tiho ignoriraj
 
   await new Promise((resolve) => setTimeout(resolve, 600))
-  console.info('[Patricia Edukacije] Upit (još se ne šalje, spojiti Web3Forms):', data)
+  console.info('[Bistra glavica] Upit (još se ne šalje, spojiti Web3Forms):', data)
 }
